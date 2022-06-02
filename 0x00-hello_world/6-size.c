@@ -3,6 +3,7 @@
 /**
 * main - Prints out the sizes of various data types
 * this program is compiled on.
+* Return: Always 0 (Success)
 */
 
 int main(void)
