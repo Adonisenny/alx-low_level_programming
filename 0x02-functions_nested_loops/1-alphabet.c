@@ -1,15 +1,13 @@
-#include "holberton.h"
+#include "main.h"
 /**
- * print_alphabet - entry point
- *Description: show the alphabet
- * Return
+ * print_alphabet - Prints alphabets 'a - z'
  */
 void print_alphabet(void)
 {
-char ch;
-for (ch = 'a'; ch <= 'z'; ch++)
+char c;
+for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(ch);
+_putchar(c);
 }
 _putchar('\n');
 }
