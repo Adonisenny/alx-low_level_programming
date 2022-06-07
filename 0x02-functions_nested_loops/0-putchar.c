@@ -1,13 +1,16 @@
-#include main.h
+#include "main.h"
 /**
- * main - prints _putchar, fllowd by a new linees
- * Return: Alwys 0 (Success)
+ * main - Entry point
+ * Return:0
  */
 int main(void)
 {
-char abe[] = "_putchar";
+char c[10] = "Holberton";
+int i = 0;
+while (i < 9)
 {
-_putchar(abe[c]);
+_putchar(c[i]);
+i++;
 }
 _putchar('\n');
 return (0);
