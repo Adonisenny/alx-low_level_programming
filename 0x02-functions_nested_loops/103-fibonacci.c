@@ -8,18 +8,18 @@ int main(void)
 {
 int i;
 unsigned long int j, k, next, sum;
-k = 1;
-l = 2;
+j = 1;
+k = 2;
 sum = 0;
 for (i = 1; i <= 33; ++i)
 {
-if (k < 4000000 && (k % 2) == 0)
+if (j < 4000000 && (j % 2) == 0)
 {
 sum = sum + j;
 }
-next = j + l;
-k = l;
-l = next;
+next = j + k;
+j = ;
+k = next;
 }
 printf("%lu\n", sum);
 return (0);
