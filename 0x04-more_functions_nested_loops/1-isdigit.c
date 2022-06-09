@@ -1,5 +1,4 @@
 #include "main.h"
-#include <studio.h>
 /**
  * _isdigit - Check for a digit (0-9)
  * @c: Integer holding the character
